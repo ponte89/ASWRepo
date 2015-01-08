@@ -48,25 +48,34 @@ and open the template in the editor.
             </div>
 
             <div class="content">
-                <h1>Contattaci</h1>
+                <h1>Hai domande? Contattaci subito</h1>
                 <table>
                     <tr>
                         <td>
-                            <div class="contatti">
-                                
-                                <form method="get" action=""  >
-                                    <input type="text" name="name" required  placeholder="Nome*" /><br/><br/>
-                                    <input type="text" name="surname" required  placeholder="Cognome*" /><br/><br/>
-                                    <input type="email" name="email" required  placeholder="Email*" /><br/><br/>
-                                    <textarea rows="10" cols="30" required   name="message" placeholder="Messaggio*" style="resize:none;"></textarea><br/><br/>
-                                    <button type="submit" >Invia</button>
-                                </form>
 
+                            <div id="contact">
+                                
+                                <form action="#" method="post">
+                                    <fieldset class="contact">
+                                        <label class="contact" for="name">Nome:</label>
+                                        <input class="contact" type="text" id="name" placeholder="Inserisci il nome" required/>
+
+                                        <label class = "contact" for="email">Email:</label>
+                                        <input class="contact" type="email" id="email" placeholder="Inserisci il tuo indirizzo email" required/>
+
+                                        <label class ="contact" for="message">Messaggio:</label>
+                                        <textarea class="contact" id="message" placeholder="Testo del messaggio" required></textarea>
+
+                                        <input class="contact" type="submit" value="Invio" />
+
+                                    </fieldset>
+                                </form>
                             </div>
+
                         </td>
-                        
+
                         <td>
-                            <img src="./../images/map.png" width="300" height="260" style="padding-left: 50px;">
+                            <img src="./../images/map.png" class="contact">
                         </td>
                     </tr>
                 </table> 
