@@ -204,6 +204,7 @@ blockquote cite {
     font-size: 12px;
     display: block;
     margin-top: 5px;
+    margin-left: 50%;
 }
 
 blockquote cite:before {
