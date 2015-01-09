@@ -310,11 +310,12 @@ form#reg button {
     padding: 7px 25px;
     text-shadow: 0 1px 1px #000000;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /*** form contatti ***/
 
-div.contact {
+    div.contact {
 	width: 330px; 
         height:auto;
         margin-left:20px;
@@ -422,7 +423,7 @@ div.login{
     border-bottom: 3px solid #a4a4a4;
     margin-top: 5px;
     height: 240px;
-    width:190px;
+    width:200px;
 }
 
 form.login{
