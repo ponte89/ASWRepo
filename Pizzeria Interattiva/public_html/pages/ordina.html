@@ -38,12 +38,20 @@ and open the template in the editor.
                 <h2>Area riservata</h2>
                 <br/><br/>
                 <div class="login">
-                    <form action="" method="GET">
-                        Username<br/><input type="text" name="firstname"><br/>
-                        Password<br/><input type="password" name="password"><br/><br/>
-                        <input type="submit" value="Accedi" ><br/>
-                        <p>Non sei registrato? Fallo subito per poter ordinare</p>
-                        <input type="submit" value="Registrati" ><br/>
+                    <form class="login">
+
+                        <label class="login" for="username">Username:</label>
+
+                        <input class="login" type="text" id="username" name="username">
+
+                        <label class="login" for="password">Password:</label>
+
+                        <input class="login" type="password" id="password" name="password">
+
+                        <input class="login" type="submit" value="Login">
+
+                        <input class="login" type="submit" value="Registrati">
+
                     </form>
                 </div>
 

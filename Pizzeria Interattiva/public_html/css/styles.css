@@ -51,7 +51,7 @@ header h1 {
 }
 .headerPic img {
     float:left;
-    height: 250px;
+    height: 180px;
     width:960px;
 }
 .contentPic {
@@ -82,11 +82,7 @@ footer {
     padding: 10px 0;
     border-right:3px solid #a4a4a4;
 }
-.login{
-    padding-bottom:30px;
-    padding-left: 20px;
-    border-bottom: 3px solid #a4a4a4;
-}
+
 
 .consigli{
     border-right: 1px solid #a4a4a4;
@@ -211,6 +207,7 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
+/*** form registrazione ***/
 
 form#reg {
     background: #D3D3D3;
@@ -315,8 +312,10 @@ form#reg button {
     text-transform: uppercase;
 }
 
-#contact {
-	width: 350px; 
+/*** form contatti ***/
+
+div.contact {
+	width: 330px; 
         height:auto;
         margin-left:20px;
         margin-top:10px;
@@ -398,10 +397,9 @@ input.contact:focus, textarea.contact:focus {
 
 input.contact[type=submit] {
 	width: 185px; 
-        height: 52px; 
+        height: 40px; 
         float: right;
         padding: 10px 15px;
-        //margin: 0 15px 0 0;
         margin:15px;
 	-moz-box-shadow: 0px 0px 5px #999;
         -webkit-box-shadow: 0px 0px 5px #999;
@@ -412,7 +410,73 @@ input.contact[type=submit] {
 }
 
 img.contact{
-    width: 370px; 
+    width: 330px; 
     height:300px;
-    margin-left:50px; 
+    margin-left:20px; 
+}
+
+/*** form login **/
+
+div.login{
+    padding-bottom:10px;
+    border-bottom: 3px solid #a4a4a4;
+    margin-top: 5px;
+    height: 240px;
+    width:190px;
+}
+
+form.login{
+    margin-top:-20px;
+}
+
+ 
+label.login {
+    color: #555;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ 
+input.login {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    width:190px;
+    outline: none;
+}
+ 
+input.login[type=text],
+input.login[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 170px;
+    height: 35px;
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+}
+
+ 
+input.login[type=submit] {
+    float: left;
+    //margin-right: 20px;
+    margin-top: 10px;
+    margin-left:5px;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #acd6ef; /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
 }

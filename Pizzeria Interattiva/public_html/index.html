@@ -6,82 +6,93 @@ and open the template in the editor.
 -->
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>Pizzeria Interattiva</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css">
- <script src="fun.js"></script>
-</head>
+    <head>
+        <title>Pizzeria Interattiva</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="fun.js"></script>
+    </head>
 
-<body>
+    <body>
 
-  <header class="container">
-    <div class="headerPic"><img src="images/headerPic.jpg"></div>
-    <nav>
-        <ul id="navlist">
-            <li id="active"><a href="#">Home</a></li>
-            <li><a href="./pages/menu.html">Menu</a></li>
-            <li><a href="./pages/ordina.html">Ordina</a></li>
-            <li><a href="./pages/riepilogo.html">Riepilogo ordini</a></li>
-            <li><a href="./pages/contatti.html">Contatti</a></li>
-            
-        </ul>
-  </header>
-  
-  <section class="container">
-      
-      <div class="sidebar1">
-          <h2>Area riservata</h2>
-        <br/><br/>
-        <div class="login">
-             <form action="" method="GET">
-                Username<br/><input type="text" name="firstname"><br/>
-                Password<br/><input type="password" name="password"><br/><br/>
-                <input type="submit" value="Accedi" ><br/>
-                <p>Non sei registrato? Fallo subito per poter ordinare</p>
-                <input type="submit"  value="Registrati" ><br/>
-            </form>
-        </div>
-          
-        <div id="consigli">
-            <h2>La cucina consiglia</h2>
-        </div>
-      </div>
-      
-      <div class="content">
-        <h1 id="nome">Benvenuti nella nuova Pizzeria Interattiva</h1>
-        
-        
-        <p id = "benvenuti">
-        Il concetto di questa nuova pizzeria &egrave; semplice, con pochi passaggi ti registri al sito, 
-        poi potrai subito ordinare le pizze che pi&ugrave; di piacciono!
-        <br/>Ma non solo questo: una volta che sarai un nosto cliente potrai anche divertirti 
-        a crearne di nuove e fantasiose!<br/><br/> Non ti va?Nessun problma scorri il menu del giorno, sar&agrave; 
-        la nostra cucina a consigliarti un piatto il piatto tipico.
-        <br/><br/>Non ti basta ancora? Puoi anche seguire i suggerimenti delle ultime pizze ordinate, 
-        ogni volta sempre nuovi abbinamenti e nuovi ingredienti per rendere le tue pizze sempre piu sfizione.
-        
-        <br/><br/>Per il trasporto? Nessun problema, inserisci l'indirizzo e ti verranno recapitate a casa ancora calde
-        e pronte per essere mangiate!
-        <br/><br/>Vuoi essere tu a passare da noi?  Consulta l'area clienti e scopri quanto manca prima che 
-        le pizze siano pronte!
-        
-        
-        Vuoi prenotare un tavolo? Anche per questo abbiamo la soluzione potrai selezionarlo personalmente da casa!
-        
-        
-       <br/><br/> Che fai ancora li? Vieni a trovarci o registrati, e ordina subito la tua prima pizza da "Pizzeria Interattiva"</p>
-        
-        
-        <blockquote> Pizzeria Interattiva, il gusto di una buona pizza a portata di click!  <cite>Il team di Pizzeria Interattiva </cite>
-        
-      </div>
-      
-      
-      
-  </section>
-  
-  <footer class="container">
-    <p>Copyright &copy; Pizzeria Interattiva. All rights reserved. Design by Mezzapesa Beatrice Papini Alessia Pontellini Lorenzo<p>
-  </footer>
-</body>
+        <header class="container">
+            <div class="headerPic"><img src="images/headerPic.jpg"></div>
+            <nav>
+                <ul id="navlist">
+                    <li id="active"><a href="#">Home</a></li>
+                    <li><a href="./pages/menu.html">Menu</a></li>
+                    <li><a href="./pages/ordina.html">Ordina</a></li>
+                    <li><a href="./pages/riepilogo.html">Riepilogo ordini</a></li>
+                    <li><a href="./pages/contatti.html">Contatti</a></li>
+
+                </ul>
+        </header>
+
+        <section class="container">
+
+            <div class="sidebar1">
+                <h2>Area riservata</h2>
+                <br/><br/>
+
+                <div class="login">
+                    <form class="login">
+
+                        <label class="login" for="username">Username:</label>
+
+                        <input class="login" type="text" id="username" name="username">
+
+                        <label class="login" for="password">Password:</label>
+
+                        <input class="login" type="password" id="password" name="password">
+
+                        <input class="login" type="submit" value="Login">
+
+                        <input class="login" type="submit" value="Registrati">
+
+                    </form>
+                </div>
+
+
+
+                <div id="consigli">
+                    <h2>La cucina consiglia</h2>
+                </div>
+            </div>
+
+            <div class="content">
+                <h1 id="nome">Benvenuti nella nuova Pizzeria Interattiva</h1>
+
+
+                <p id = "benvenuti">
+                    Il concetto di questa nuova pizzeria &egrave; semplice, con pochi passaggi ti registri al sito, 
+                    poi potrai subito ordinare le pizze che pi&ugrave; di piacciono!
+                    <br/>Ma non solo questo: una volta che sarai un nosto cliente potrai anche divertirti 
+                    a crearne di nuove e fantasiose!<br/><br/> Non ti va?Nessun problma scorri il menu del giorno, sar&agrave; 
+                    la nostra cucina a consigliarti un piatto il piatto tipico.
+                    <br/><br/>Non ti basta ancora? Puoi anche seguire i suggerimenti delle ultime pizze ordinate, 
+                    ogni volta sempre nuovi abbinamenti e nuovi ingredienti per rendere le tue pizze sempre piu sfizione.
+
+                    <br/><br/>Per il trasporto? Nessun problema, inserisci l'indirizzo e ti verranno recapitate a casa ancora calde
+                    e pronte per essere mangiate!
+                    <br/><br/>Vuoi essere tu a passare da noi?  Consulta l'area clienti e scopri quanto manca prima che 
+                    le pizze siano pronte!
+
+
+                    Vuoi prenotare un tavolo? Anche per questo abbiamo la soluzione potrai selezionarlo personalmente da casa!
+
+
+                    <br/><br/> Che fai ancora li? Vieni a trovarci o registrati, e ordina subito la tua prima pizza da "Pizzeria Interattiva"</p>
+
+
+                <blockquote> Pizzeria Interattiva, il gusto di una buona pizza a portata di click!  <cite>Il team di Pizzeria Interattiva </cite>
+
+            </div>
+
+
+
+        </section>
+
+        <footer class="container">
+            <p>Copyright &copy; Pizzeria Interattiva. All rights reserved. Design by Mezzapesa Beatrice Papini Alessia Pontellini Lorenzo<p>
+        </footer>
+    </body>
 </html>
